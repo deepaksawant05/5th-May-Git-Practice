@@ -4,3 +4,4 @@ WORKDIR /tmp
 COPY myfile /tmp/data/
 ADD instruction
 RUN echo "bently flying spur" > /tmp/myfile_1
+COPY myfile_1 /tmp/app/data
